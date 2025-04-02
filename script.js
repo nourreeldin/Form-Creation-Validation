@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
             isValid = false;
             messages.push("Your password is short!");
         }
-        if (isValid) {
+        if (isValid == true) {
             feedbackDiv.textContent = "Registration successful!";
             feedbackDiv.style.color = "#28a745";
         } if (isValid == false) {
