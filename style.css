@@ -55,5 +55,5 @@ button:hover {
     color: #d8000c;
     background-color: #ffbaba;
     border-radius: 4px;
-    display: block; 
+    display: none; 
 }
