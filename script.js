@@ -21,10 +21,10 @@ document.addEventListener("DOMContentLoaded", () => {
             messages.push("Your password is short!");
         }
         feedbackDiv.style.display = "block";
-        if (isValid == true) {
+        if (isValid) {
             feedbackDiv.textContent = "Registration successful!";
             feedbackDiv.style.color = "#28a745";
-        } if (isValid == false) {
+        } else {
             feedbackDiv.innerHTML = messages.join("<br>");
             feedbackDiv.style.color = "#dc3545";
         }
